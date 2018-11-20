@@ -6,7 +6,7 @@ class Family extends Component {
   render () {
     return (
       <div>
-       <h2>Family: {this.props.name}</h2>
+        <h2>Family: {this.props.name}</h2>
         <p>wikiSuffix: {this.props.wikiSuffix}</p>
         <p>{this.props.people.map(member => (
             <Member
